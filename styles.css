@@ -1,0 +1,59 @@
+
+body{
+    font-family: sans-serif;
+    background-color: #163840;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+main{
+   
+    background-color: #896840;
+    padding:15px 20px;
+   
+    
+}
+button{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color:#a6a194;  
+    font-size:1.5rem;
+    font-weight: bold;
+    transition: ease 1s;   
+    
+}
+.score-board{
+    position:absolute;
+    top: 50px;
+    display: flex;
+    justify-content: center; 
+    color: #f2f2f2; 
+}
+.squares{
+    box-sizing: content-box;
+    
+    width: 50px;
+    height: 50px;
+    border: solid black 2px;
+    padding: 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction : row;
+}
+#squares-container{
+    display: flex;
+    justify-content: space-around;
+}
+#btn-container{
+    display: flex;
+    justify-content: space-around;
+}
+#answer{
+    text-align:center;
+    
+}
